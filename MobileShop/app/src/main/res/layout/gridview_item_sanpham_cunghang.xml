@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="#ececec"
+    >
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/galaxys7"
+        android:id="@+id/imgSanPham"
+        android:layout_centerHorizontal="true"
+        />
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="Samsung Galaxy S7 Edge"
+       android:layout_below="@+id/imgSanPham"
+       android:id="@+id/tvTenSP"
+       android:textStyle="bold"
+       android:textSize="15dp"
+       android:textColor="#0024ef"
+       android:ellipsize="end"
+       android:maxLines="1"
+       android:layout_centerHorizontal="true"
+       />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvTenSP"
+        android:id="@+id/tvGiaSP"
+        android:text="16.550.000"
+        android:textColor="#ff0d00"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        />
+    <TextView
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="#ffffff"
+        android:layout_alignParentLeft="true"
+        android:layout_toRightOf="@+id/tvTenSP"
+        ></TextView>
+</RelativeLayout>
